@@ -10,6 +10,6 @@ pkgs.mkShell {
     unzip gnutar
     coreutils bash gnumake git python gcc gnused
     binutils-unwrapped ncurses.dev which bison flex
-    gperf
+    gperf pkg-config gcc-unwrapped.lib
   ];
 }
